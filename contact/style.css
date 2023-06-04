@@ -1,0 +1,48 @@
+.footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.icon img{
+    height: 40px;
+    width: 40px;
+    border-radius: 21px;
+    margin: 0px 50px;
+}
+.icon{
+    margin-left: 30%;
+}
+*{
+    color: #fff;
+}
+.grid{
+    display: grid;
+    grid-template-columns:  repeat(12,1fr);
+}
+
+.col-12{
+    grid-column: span 12/ span 12;
+}
+
+.col-1{
+    grid-column: span 1/ span 1;
+}
+
+.col-2{
+    grid-column: span 2/ span 2;
+}
+
+.col-3{
+    grid-column: span 3/ span 3;
+}
+
+.col-4{
+    grid-column: span 4/ span 4;
+}
+
+.col-5{
+    grid-column: span 5/ span 5;
+}
+
+.col-6{
+    grid-column: span 6/ span 6;
+}

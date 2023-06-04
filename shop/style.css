@@ -1,0 +1,144 @@
+.logo{
+    color: #fff;
+}
+.footer{
+    color: #fff;
+}
+#carttitle{
+    display: inline;
+}
+:root{
+    --lgreen: rgb(122, 224, 130);
+    --green: rgb(59, 197, 70);
+    --dgreen: rgb(25, 138, 34);
+    --ddgreen: rgb(11, 46, 14);
+
+}
+.lg{
+    background-color: var(--lgreen);
+}
+.ddg{
+    background-color: var(--ddgreen);
+}
+.dg{
+    background-color: var(--dgreen);
+}
+.g{
+    background-color: var(--green);
+}
+.grid{
+    display: grid;
+    grid-template-columns:  repeat(12,1fr);
+}
+
+.col-12{
+    grid-column: span 12/ span 12;
+}
+
+.col-1{
+    grid-column: span 1/ span 1;
+}
+
+.col-2{
+    grid-column: span 2/ span 2;
+}
+
+.col-3{
+    grid-column: span 3/ span 3;
+}
+
+.col-4{
+    grid-column: span 4/ span 4;
+}
+
+.col-5{
+    grid-column: span 5/ span 5;
+}
+
+.col-6{
+    grid-column: span 6/ span 6;
+}
+
+.footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
+#icon-leaf{
+    height: 20px;
+    width: 20px;
+}
+.icon img{
+    height: 40px;
+    width: 40px;
+    border-radius: 21px;
+    margin: 0px 50px;
+}
+.icon{
+    margin-left: 30%;
+}
+
+.content2 h2 {
+    font-size: 90px;
+    color: black;
+}
+.content2{
+    text-align: center;
+}
+.content2 p{
+    font-size:3ch;
+    
+}
+.shop{
+    text-align: center;
+}
+#cart{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.text {
+    padding: 100px;
+}
+.du-an-content{
+    display: flex;
+    color: #fff;
+
+}
+#du-an-img{
+    height: 600px;
+    width: 600px;
+}
+.row{
+    display: flex;
+    position: relative;
+    left: 15px;
+}
+.number{
+    font-weight: 700;
+    font-size: 36px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 36px;
+}
+.thong-ke-title{
+    font-weight: 700;
+    font-size: 36px;
+
+}
+#se{
+    color: rgb(0, 255, 0);
+}
+.nam{
+    color: rgb(0, 255, 0);
+    
+}
+.thong-ke-title-div{
+    margin-bottom: 30px;
+}
+.n{
+    margin-right: 30px;
+}
+.thong-ke{
+    margin-bottom: 50px;
+}
